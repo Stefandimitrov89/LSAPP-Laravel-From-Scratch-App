@@ -25,10 +25,14 @@
         @include('incl/navbar')
         
         <div class="container">
+            @include('incl/messages')
             @yield('content')
         </div>
     </body>
-    <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
-
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/ckeditor/ckeditor.js') }}"></script>
+    <script>
+        CKEDITOR.replace( `article-ckeditor` );
+    </script>
 </html>

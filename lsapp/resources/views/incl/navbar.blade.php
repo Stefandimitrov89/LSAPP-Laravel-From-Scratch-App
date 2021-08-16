@@ -10,6 +10,7 @@
           <li><a href="/services" class="nav-link px-2 text-white">Services</a></li>
           <li><a href="/about" class="nav-link px-2 text-white">About</a></li>
           <li><a href="/posts" class="nav-link px-2 text-white">Posts</a></li>
+          <li><a href="/posts/create" class="nav-link px-2 text-white">Create Post</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
