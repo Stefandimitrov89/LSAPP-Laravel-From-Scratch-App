@@ -4,6 +4,7 @@
     <a href="/posts" class="btn btn-light m-3">Go back</a>
     <div class="card p-3">
         <h4>{{$post->title}}</h4>
+        <img stile="width:100%" src="/storage/cover_images/{{  $post->cover_image  }}">
         <div>{!!$post->body!!}</div>
         <hr>
         <small> Written in {{$post->created_at}} by {{ $post->user->name }}</small>
